@@ -1,0 +1,44 @@
+.tag {
+  width: fit-content;
+  padding: 0.3em 1rem;
+  margin-bottom: 8px;
+  margin-right: 1rem;
+  display: inline-block;
+  text-align: center;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.chat-right {
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+}
+
+.chat-bottom-right {
+  border-radius: 8px;
+  border-bottom-right-radius: 0px;
+}
+
+.chat-bottom-left {
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+}
+
+.active {
+  background-color: #4963e2;
+  color: #fff;
+}
+
+.inactive {
+  background-color: #f0f6ff;
+  color: #4963e2;
+}

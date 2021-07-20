@@ -1,0 +1,50 @@
+.info-card {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  background-color: #fff;
+  padding: 1.5em 2em;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.left-box {
+  text-align: center;
+  background-color: #f0f6ff;
+  color: #373e68;
+  padding: 0.5em;
+  border-radius: 8px;
+  margin-right: 2em;
+  align-self: flex-start;
+  b {
+    display: block;
+    font-size: 14px;
+  }
+}
+
+.info-box {
+  span {
+    display: block;
+    margin-bottom: .7em;
+    font-weight: bold;
+  }
+  #heading {
+    color: #373e68;
+  }
+  #desc {
+    color: #b5b5b9;
+    font-size: 13px;
+  }
+}
+
+.comment {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  span {
+    color: #373e68;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}

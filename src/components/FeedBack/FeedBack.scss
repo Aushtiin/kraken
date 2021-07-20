@@ -1,0 +1,33 @@
+.feedback-board {
+  background: rgb(110, 173, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(110, 173, 246, 1) 34%,
+    rgba(170, 63, 224, 1) 66%,
+    rgba(210, 88, 156, 1) 83%
+  );
+  height: 6rem;
+  // width: auto;
+  max-width: 17rem;
+  min-width: 10rem;
+  width: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.7rem;
+  margin-bottom: 2rem;
+
+  .texts {
+    color: #fff;
+    #head-text {
+      font-weight: bold;
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: .2rem;
+    }
+    #desc-text {
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+  }
+}
